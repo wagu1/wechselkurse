@@ -1,4 +1,4 @@
-# Anzeigen der wechselkurse
+# Anzeigen der Wechselkurse
 
 
 Die Daten werden in aus einer MySQL-Datenbank gelesen und in Tabellenform angezeigt. Für eine Währung wird die Kursentwicklung grafisch veranschaulicht. Die Darstellung basiert auf der Bibliothek https://d3js.org/d3.v3.min.js. 
@@ -94,7 +94,7 @@ eine Methode enthält, die für die Anzeige verwendet wird.
 function showDiagram1Line(titel, sql, textX, textY, breite, hoehe, data, scaleY, units, id) 
 ```
 
-Beispielaufruf (i"waehrung" wird als Parameter beim Aufruf mitgegen und muss
+Beispielaufruf ("waehrung" wird als Parameter beim Aufruf mitgegen und muss
         zuvor mit $_GET oder $_POST gelesen werden):
 ```
 <script>

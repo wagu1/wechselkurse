@@ -1,0 +1,81 @@
+
+body { font: 12px Arial;}
+
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+
+.grid .tick {
+    stroke: lightgrey;
+    stroke-opacity: 0.7;
+    shape-rendering: crispEdges;
+}
+.grid path {
+          stroke-width: 0;
+}
+
+
+
+/*
+ * **************************************************
+ * Darstellung Tooltipp  Grundfarbe: lightsteelblue
+ * **************************************************
+ * */
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 100px;                  
+  height: 40px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 1px solid lightgray;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+
+/*
+ * **************************************************
+ * Darstellung Währungen  Grundfarbe: lindgrün
+ * **************************************************
+ * */
+
+#graphCurrency {
+    float:left;
+    border: 3px solid #BDE7BD;
+    width:  600px;
+}
+
+#graphCurrency .title {
+    background: #BDE7BD; 
+    color: gray;
+    font-size:2em; 
+    text-align:center; 
+}
+
+#graphCurrency .y {
+    fill: green;
+}
+
+#graphCurrency .linecolor {
+    stroke: green;
+    stroke-width: 2;
+    fill: none;
+}
+
+#graphCurrency .tooltip {   
+  background: #BDE7BD;   
+}

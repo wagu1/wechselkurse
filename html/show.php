@@ -30,7 +30,7 @@ $waehrung = "USD";
 if (isset($_GET["waehrung"])) $waehrung = $_GET["waehrung"]; 
     
 $server = "https://gussmann-berlin.de/wechselkurs";
-
+$table  = "kurse";
 
 $max = 0;
 $min = 0;
